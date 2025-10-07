@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Nueva nota</title>
+</head>
+<body>
+  <h1>Nueva nota</h1>
+  <form action="/notes" method="post">
+    <div>
+      <label for="title">Título:</label>
+      <input type="text" id="title" name="title">
+    </div>
+    <div>
+      <label for="content">Contenido:</label>
+      <textarea id="content" name="content"></textarea>
+    </div>
+    <button type="submit">Guardar</button>
+  </form>
+</body>
+</html>
